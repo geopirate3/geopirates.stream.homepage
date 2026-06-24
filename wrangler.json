@@ -8,5 +8,9 @@
   "assets": {
     "directory": "./dist",
     "not_found_handling": "single-page-application"
-  }
+  },
+  "routes": [
+    { "pattern": "geopirates.stream", "custom_domain": true },
+    { "pattern": "www.geopirates.stream", "custom_domain": true }
+  ]
 }
