@@ -1,0 +1,105 @@
+/* Reset & Base Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121214;
+    color: #e0e0e6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Banner Styles */
+.banner {
+    width: 100%;
+    background: linear-gradient(135deg, #1f1f23 0%, #2a2a32 100%);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid #64b5f6;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #64b5f6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Main Content Area */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Image Container */
+.construction-container {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    background-color: #1a1a1e;
+}
+
+.construction-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Status Text */
+.status-message {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.status-message h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.status-message p {
+    font-size: 1.1rem;
+    color: #a0a0aa;
+}
+
+/* Footer */
+.footer {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #565662;
+    width: 100%;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    .banner-title {
+        font-size: 1.8rem;
+    }
+
+    .status-message h2 {
+        font-size: 1.4rem;
+    }
+
+    .main-content {
+        padding: 1rem;
+    }
+}

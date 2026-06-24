@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.diag
+
+# Dependencies
+node_modules/
+/jspm_packages/
+
+# Production Build Output
+dist/
+build/
+out/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Local Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cloudflare Pages / Wrangler specific (if applicable)
+.wrangler/
+.pages/
